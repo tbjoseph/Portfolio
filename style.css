@@ -1,0 +1,19 @@
+h1 {
+    color: teal;
+}
+
+.overline_text {
+    color: teal;
+    text-decoration: overline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button {
+    color: teal;
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+table, th, td {
+  border-color: teal;
+}
