@@ -1,39 +1,3 @@
-body {
-    background-color: rgb(231, 235, 237);
-}
-
-.circle {
-    display: block;
-    margin: auto;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-}
-
-h1 {
-    color: teal;
-    text-align: center;
-}
-
-.overline_text {
-    color: teal;
-    text-decoration: overline;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.underline_text {
-    color: teal;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    line-height:0cm;
-}
-
-.button {
-    color: teal;
-    text-decoration: underline;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
 table, th, td {
   border-color: teal;
