@@ -2,43 +2,58 @@
 <html>
     <head>
         <title>Timothy Joseph</title>
-        <link rel="stylesheet" type="text/css" href="style.css"></link>
+        <link rel="stylesheet" type="text/css" href="index.css"></link>
     </head>
     <body>
 
-        <h1 element class="overline_text">Timothy Joseph</h1> <!-- comment -->
+        <h1 element class="header1">Timothy Joseph</h1> <!-- comment -->
 
         <table width="100%" border="20" cellspacing="0" cellpadding="0" border color="#990000" >
             <td align="center"> <h3 element class="button"> <a href="index.html">
                 Home </a> </h3> </td>
-            <td align="center"> <h3 element class="button">
-                Portfolio </h3> </td>
+            <td align="center"> <h3 element class="button"> <a href="portfolio.html">
+                Portfolio </a> </h3> </td>
             <td align="center"> <h3 element class="button"> <a href="quialifications.html">
                 Qualifications </a> </h3> </td>
             <td align="center"> <h3 element class="button"> <a href="service.html">
                 Service</a> </h3> </td>
             <td align="center"> <h3 element class="button"> <a href="ai.html">
-                AI-Generated Page </a> </h3> </td>
+                AI-Generation </a> </h3> </td>
         </table>
         
-        <h2 element class="overline_text">Portfolio</h2>
-        <p> Here are a few of the projects I have completed. </p>
-        <h3 element class="overline_text">Graph ADT</h3>
-        <p> This is a project about developing a Graph Abstract Data Type through C++. The project
-            was developed in a team of two. It was an exercise in and Object Oriented Programming 
-            and Algorithm Analysis. The following image is pictoral representation of the data structure. </p>
-            <img src="graph.png" width="300" height="250"/>
+        <h2 element class="header1" align="center">Portfolio</h2>
+        <p align="center"> Here are a few of the projects I have completed. </p> <br><br><br><br>
 
-        <h3 element class="overline_text">Aggie Shell</h3>
-        <p> This project was an exercise in implementing a Linux shell through C++. Features:</p>
-        <ul>
-            <li>Run Linux commands as child processes</li>
-            <li>Inter-process communication</li>
-            <li>Navigate through the file system</li>
-            <li>File input/out redirection</li>
-        </ul>
-        <p>The shell has the ability to function almost as well as BASH. It runs Linux commands 
-            that sit as executables in the system through a a call to execvp().</p>
+        <div class="container">
+            <div class="text-box">
+                <h3 element class="header2">Graph ADT</h3>
+                <p style="font-size: large;"> This is a project about developing a Graph Abstract Data Type through C++. The project
+                    was developed in a team of two. It was an exercise in and Object Oriented Programming 
+                    and Algorithm Analysis. The image on the right is pictoral representation of the data structure. Using Dijkstra's Algorithm,
+                    we were able to compute the shortest path between a chosen root vertex and every other vertex.
+                </p>
+            </div>
+            <img src="graph.png" width="300" height="250"/>
+        </div> <br><br><br><br><br><br>
+
+        <div class="container">
+            <img src="graph.png" width="300" height="250"/>
+            <div class="text-box">
+                <h3 element class="header2">Aggie Shell</h3>
+                <p style="font-size: large;"> <p> This project was an exercise in implementing a Linux shell through C++. Features:</p>
+                <ul>
+                    <li>Run Linux commands as child processes</li>
+                    <li>Inter-process communication</li>
+                    <li>Navigate through the file system</li>
+                    <li>File input/out redirection</li>
+                </ul>
+                <p>The shell has the ability to function almost as well as BASH. It runs Linux commands 
+                    that sit as executables in the system through a a call to execvp().</p>
+            </div>
+        </div>
+
+        <br><br><br><br><br><br>
+        
 
     </body>
     
