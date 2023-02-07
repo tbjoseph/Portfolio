@@ -91,10 +91,23 @@ table {
   display: flex;
   justify-content: center;
   height: 240px;
+
 }
 
 .header2 {
   color: teal;
   text-decoration: overline;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.skills {
+  width: 80%;
+  height: 100px;
+  padding: 20px;
+  text-align: left;
+  margin-top: -115px;
+}
+
+li {
+  margin-left: 20px;
 }
