@@ -72,6 +72,10 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.button:hover {
+  transform: translate(0, -5px);
+}
+
 .button a:visited {
   color: teal;
 }
@@ -106,6 +110,14 @@ table {
   padding: 20px;
   text-align: left;
   margin-top: -115px;
+}
+
+.courses {
+  width: 80%;
+  height: 100px;
+  padding: 20px;
+  text-align: left;
+  margin-top: -180px;
 }
 
 li {

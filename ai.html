@@ -1,63 +1,99 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Webpage</title>
-    <link rel="stylesheet" type="text/css" href="ai.css">
-    <style>
-      body {
-        background-color: #f2f2f2;
-        font-family: Arial, sans-serif;
-        text-align: center;
-      }
-      
-      header {
-        background-color: #333;
-        color: white;
-        padding: 1em;
-        position: fixed;
-        width: 100%;
-        top: 0;
-        left: 0;
-      }
-      
-      header nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: space-around;
-      }
-      
-      header nav a {
-        color: white;
-        text-decoration: none;
-      }
-      
-      main {
-        margin-top: 5em;
-      }
-      
-      h1 {
-        font-size: 2em;
-        margin-bottom: 0.5em;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <title>My Cool Website</title>
+  <style>
+    body {
+      background-color: rgb(231, 235, 237);
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    h1 {
+      color: teal;
+      text-shadow: 2px 2px black;
+      margin-top: 50px;
+    }
+    button {
+      background-color: white;
+      border: none;
+      color: black;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 2px 2px lightgrey;
+    }
+    nav {
+      background-color: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      box-shadow: 2px 2px lightgrey;
+    }
+    nav a {
+      color: black;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    .explanation {
+      background-color: white;
+      padding: 20px;
+      box-shadow: 2px 2px lightgrey;
+      margin: 20px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="quialifications.html">Qualifications</a>
+    <a href="service.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+  </nav>
+  <h1>Welcome to My Cool Website</h1>
+  <p>Try to guess the number between 1 and 10:</p>
+  <input type="text" id="guess">
+  <button onclick="checkGuess()">Submit Guess</button>
+  <p id="result"></p>
 
-    <main>
-      <h1>Welcome to my Webpage</h1>
-      <p>This is a sample HTML webpage with a navigation bar and CSS styling.</p>
-    </main>
-  </body>
+  <div class="explanation">
+    <h2>How this website was coded</h2>
+    <p>
+      Picture a mad scientist locked in a dark basement with nothing but a computer, a cup of coffee, and a bag of chips. That's me, coding this website!
+    </p>
+    <p>
+      I mixed HTML, CSS, and JavaScript together like a potions master to create a website that's not only functional, but also aesthetically pleasing. 
+    </p>
+    <p>
+      HTML is like the skeleton of the website, giving it structure and holding everything together. CSS is like the wizard's robes, making the website look flashy and cool. And JavaScript is like a magic wand, adding interactive elements to the website and making it come to life.
+    </p>
+    <p>
+      So there you have it, a website brewed to perfection by yours truly. Enjoy!
+    </p>
+
+    AI Prompt: Make me a webpage in a html file. Make it look interesting and give it cool features. 
+    Add a nav bar to the site. The nav bar should navigate to 4 other webpages: index.html, quialifications.html, service.html, and portfolio.html.
+    Add a game to the site.
+    Add some text to the site that explains in detail how the website was coded through html and JavaScript in a funny way. 
+    Make the "welcome to my cool website" text teal colored.
+    Make the text look better and put it in after the game.
+  </div>
+
+  <script>
+    function checkGuess() {
+      var guess = document.getElementById("guess").value;
+      var randomNumber = Math.floor(Math.random() * 10) + 1;
+      if (guess == randomNumber) {
+        document.getElementById("result").innerHTML = "Congratulations! You guessed the number.";
+      } else {
+        document.getElementById("result").innerHTML = "Sorry, the number was " + randomNumber + ".";
+      }
+    }
+  </script>
+  
+</body>
 </html>

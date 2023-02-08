@@ -1,6 +1,22 @@
 body {
-  background-color: rgb(231, 235, 237);
+  background-image: url(https://img.freepik.com/free-vector/white-background-with-triangle-patterns_1017-18410.jpg?w=1480&t=st=1675834379~exp=1675834979~hmac=89468e74b1da61a8dfe2ef58405213eb5595432183c2b0332e18dc47d5461635)
 }
+
+.link {
+  color:  rgb(231, 235, 237);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  display: inline-block;
+  padding: 20px 20px;
+  background-color: rgb(159, 104, 1);
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 5px 5px 0px orange;
+}
+.link:hover {
+  transform: scale(1.2);
+}
+
 
 .circle {
   display: block;
@@ -12,19 +28,21 @@ body {
 }
 
 h1 {
-  color: teal;
-  text-align: center;
+  color: rgb(159, 104, 1);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+  border-radius: "40px";
 }
 
 .overline_text {
   color: teal;
   text-decoration: overline;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .underline_text {
   color: teal;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   line-height:0cm;
 }
@@ -32,9 +50,76 @@ h1 {
 .button {
   color: teal;
   text-decoration: underline;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 table, th, td {
-border-color: teal;
+border-color: rgb(159, 104, 1);;
+background-color: lightgray;
+border-radius: 40%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 240px;
+
+}
+
+.button {
+  color: rgb(159, 104, 1);
+  text-decoration: underline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.button a:visited {
+  color: rgb(159, 104, 1);
+}
+
+
+.skills {
+  width: 80%;
+  height: 100px;
+  padding: 20px;
+  text-align: left;
+  margin-top: -115px;
+}
+
+.courses {
+  width: 80%;
+  height: 100px;
+  padding: 20px;
+  text-align: left;
+  margin-top: -180px;
+}
+
+li {
+  margin-left: 20px;
+}
+
+.text-box {
+  width: 80%;
+  height: 200px;
+  padding: 20px;
+  text-align: left;
+}
+
+.home {
+  color: rgb(159, 104, 1);;
+  text-decoration: overline;
+  text-align: center;
+  font-size: xxx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  
+.overline_text {
+  color: rgb(159, 104, 1);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: overline;
+  font-size: x-large;
+  line-height:0cm;
 }
